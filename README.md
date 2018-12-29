@@ -85,3 +85,26 @@ public void nejakyInyNazov(novyObjekt) {
 }
 ```
 
+# Úloha 1
+Stiahnite si zip empty a pripravte ako maven projekt.
+Server sa spúšťa cez App.java, Console client cez Client.java, aplikácia pre klienta cez NewJDialog.java.
+Trieda ProductList len obaľuje ArrayList - nič do nej netreba implementovať.
+
+Vytvorte resource na strane servera pre predpripravený produkt, tak aby po poslaní požiadavky GET vrátil zoznam produktov.
+Get sa dá otestovať cez url v prehliadači http://localhost:8182/products alebo pomocou postmana. 
+
+# Úloha 2
+Doplňte funkcionalitu pre pridanie nového produktu z klienta POST.
+V Client.java sa pripojte na potrebný resource a otestujte POST a GET.
+
+# Úloha 3
+Doplňte resource pre samostatný produkt, tak aby sa pri požiadavke http://localhost:8182/product/1 vrátil len produkt s id 1 a otestujte v Client.java.
+A podobne doplňte resource pre review, tak aby pri požiadavke http://localhost:8182/product/1/reviews sa vrátil len zoznam príslušných hodnotení a otestujte v Client.java.
+
+# Úloha 4
+Dopľnte NewJDialo.java tak, aby sa v ľavom liste zobrazil zoznam produktov, pričom po označení sa vypíše ich názov a cena v príslušných labeloch, a zobrazí sa zoznam hodnotení daného produktu.
+
+# Úloha 5
+Umožnite cez NewJDialog.java pridávať hodnotenia k označenému produktu.
+
+Celkové možné riešenie sa nachádza v full.zip.
